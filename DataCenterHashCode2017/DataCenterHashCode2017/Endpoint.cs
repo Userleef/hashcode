@@ -7,9 +7,7 @@ namespace DataCenterHashCode2017
         public int nbLinkedCashServer;
         public int dataCenterLatency;
 
-        public CasheServer[] casheServers;
+        public CacheServer[] cacheServers;
         public int[] latencyToCashServer;
-        public Video[] videos;
-        public int[] request;
     }
 }

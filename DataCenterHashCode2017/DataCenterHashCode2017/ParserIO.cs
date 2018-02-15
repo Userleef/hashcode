@@ -14,9 +14,13 @@ namespace DataCenterHashCode2017
         private int casheCapacity;
 
         private int[] videoSize;
+        
         private Endpoint[] endpointList;
-        
-        
+        private Video[] vidarr;
+        private CacheServer[] csarr;
+        private Request[] requestList;
+
+
         public ParserIO()
         {
             nbEndpoint = 0;
@@ -28,62 +32,44 @@ namespace DataCenterHashCode2017
         
         public void ParseFile(string path)
         {
+            //On lit le fichier source
             string file = File.ReadAllText(path);
             int index = 0;
+            
+            //Read the first line
             nbVid = ReadInteger(file, ref index);
             nbEndpoint = ReadInteger(file, ref index);
             nbRequest = ReadInteger(file, ref index);
             nbCache = ReadInteger(file, ref index);
-            CasheServer.CAPACITY = ReadInteger(file, ref index);
+            CacheServer.CAPACITY = ReadInteger(file, ref index);
             
+            
+            //Read the second line
             videoSize = new int[nbVid];
-            //Parcours le tableau videoSize
+            //Set le tableau videoSize, la taille de chaque video
             for (int i = 0; i < nbVid; i++)
             {
                 videoSize[i] = ReadInteger(file, ref index);
             }
+            vidarr = CreateVideos(nbVid, videoSize);
 
             endpointList = new Endpoint[nbEndpoint];
-            
-
+            //Créer les Cache servers et initialise les valeurs
+            CacheServer[] csarr = CreateCasheServer(nbCache);
+            //Set tous les Endpoints
+            ParseEndpointServerInfo(file, ref index);
+            ParseRequestInfo(file, ref index );
         }
 
-        public string ReadCacheServerInfo(ref int index)
-        {
-            //TODO
-            throw new Exception();
-        }
+        
         
         public static void ParseRendu(string file)
         {
-            
+            //TODO
+            throw new NotImplementedException();
         }
 
-        public CasheServer[] CreateCasheServer(int nbcasheservers, int casheCapacity)
-        {
-            CasheServer[] cashelist = new CasheServer[nbcasheservers];
-            for (int i = 0; i < nbcasheservers; i++)
-            {
-                CasheServer cs = new CasheServer();
-                cs.ID = i;
-                cashelist[i] = cs;
-            }
-
-            return cashelist;
-        }
-        
-        public Video[] CreateVideos(int nbvideos, int videosweight)
-        {
-            Video[] videos = new Video[nbvideos];
-            for (int i = 0; i < nbvideos; i++)
-            {
-                Video v = new Video();
-                v.ID = i;
-                videos[i] = v;
-            }
-
-            return videos;
-        }
+       
 
         public void ParseEndpointServerInfo(string file, ref int index)
         {
@@ -95,12 +81,39 @@ namespace DataCenterHashCode2017
                 
                 ep.dataCenterLatency = ReadInteger(file, ref index);
                 ep.nbLinkedCashServer = nbLinkedCasheServer;
-                ep.casheServers = new CasheServer[nbLinkedCasheServer];
+                ep.cacheServers = new CacheServer[nbLinkedCasheServer];
+                ep.latencyToCashServer = new int[nbCache];
+
+                for (int i = 0; i < nbCache; i++)
+                {
+                    ep.latencyToCashServer[i] = -1;
+                }
                 for (int i = 0; i < nbLinkedCasheServer; i++)
                 {
+                    int idcs = ReadInteger(file, ref index);
+                    ep.cacheServers[i] = csarr[idcs];
+                    ep.latencyToCashServer[idcs] = ReadInteger(file, ref index);
                 }
+
+                endpointList[endpointID] = ep;
+                    
+                endpointID++;
+            }
+
+        }
+        
+        public void ParseRequestInfo(string file, ref int index)
+        {
+            for (int i = 0; i < nbRequest; i++)
+            {
+                Request req = requestList[i];
+                req.video = vidarr[ReadInteger(file,ref index)];
+                req.endpointFrom = endpointList[ReadInteger(file,ref index)];
+                req.nbRequest = ReadInteger(file, ref index);
             }
         }
+        
+        //Renvoie l'entier lu et met à jour l'index
         public int ReadInteger(string file, ref int index)
         {
             string integer = "";
@@ -111,6 +124,44 @@ namespace DataCenterHashCode2017
             }
             index++;
             return Int32.Parse(integer);
+        }
+        
+        
+        /*
+         *
+         *
+         *
+         * Création des listes de cache serveur et videos
+         *
+         *
+         * 
+         */
+        
+        public CacheServer[] CreateCasheServer(int nbcasheservers)
+        {
+            CacheServer[] cashelist = new CacheServer[nbcasheservers];
+            for (int i = 0; i < nbcasheservers; i++)
+            {
+                CacheServer cs = new CacheServer();
+                cs.ID = i;
+                cashelist[i] = cs;
+            }
+
+            return cashelist;
+        }
+        
+        public Video[] CreateVideos(int nbvideos, int[] videosweight)
+        {
+            Video[] videos = new Video[nbvideos];
+            for (int i = 0; i < nbvideos; i++)
+            {
+                Video v = new Video();
+                v.ID = i;
+                v.weight = videosweight[i];
+                videos[i] = v;
+            }
+
+            return videos;
         }
     }
 }

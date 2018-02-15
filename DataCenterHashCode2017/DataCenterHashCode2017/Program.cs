@@ -7,6 +7,7 @@ namespace DataCenterHashCode2017
     {
         public static void Main(string[] args)
         {
+            
         }
     }
 }
