@@ -34,7 +34,7 @@ namespace DataCenterHashCode2017
             nbEndpoint = ReadInteger(file, ref index);
             nbRequest = ReadInteger(file, ref index);
             nbCache = ReadInteger(file, ref index);
-            casheCapacity = ReadInteger(file, ref index);
+            CasheServer.CAPACITY = ReadInteger(file, ref index);
             
             videoSize = new int[nbVid];
             //Parcours le tableau videoSize
@@ -59,16 +59,45 @@ namespace DataCenterHashCode2017
             
         }
 
+        public CasheServer[] CreateCasheServer(int nbcasheservers, int casheCapacity)
+        {
+            CasheServer[] cashelist = new CasheServer[nbcasheservers];
+            for (int i = 0; i < nbcasheservers; i++)
+            {
+                CasheServer cs = new CasheServer();
+                cs.ID = i;
+                cashelist[i] = cs;
+            }
+
+            return cashelist;
+        }
+        
+        public Video[] CreateVideos(int nbvideos, int videosweight)
+        {
+            Video[] videos = new Video[nbvideos];
+            for (int i = 0; i < nbvideos; i++)
+            {
+                Video v = new Video();
+                v.ID = i;
+                videos[i] = v;
+            }
+
+            return videos;
+        }
+
         public void ParseEndpointServerInfo(string file, ref int index)
         {
             int endpointID = 0;
             while (endpointID < nbEndpoint)
             {
                 int nbLinkedCasheServer = ReadInteger(file, ref index);
-                endpointList[endpointID] = new Endpoint(ReadInteger(file, ref index), nbLinkedCasheServer);
+                Endpoint ep = new Endpoint();
+                
+                ep.dataCenterLatency = ReadInteger(file, ref index);
+                ep.nbLinkedCashServer = nbLinkedCasheServer;
+                ep.casheServers = new CasheServer[nbLinkedCasheServer];
                 for (int i = 0; i < nbLinkedCasheServer; i++)
                 {
-                    
                 }
             }
         }
