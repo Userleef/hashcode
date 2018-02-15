@@ -44,14 +44,7 @@ namespace DataCenterHashCode2017
             }
 
             endpointList = new Endpoint[nbEndpoint];
-            int endpointID = 0;
-            while (endpointID < nbEndpoint)
-            {
-                endpointList[endpointID] = new Endpoint(ReadInteger(file, ref index), ReadInteger(file, ref index));
-            }
             
-
-
 
         }
 
@@ -66,6 +59,19 @@ namespace DataCenterHashCode2017
             
         }
 
+        public void ParseEndpointServerInfo(string file, ref int index)
+        {
+            int endpointID = 0;
+            while (endpointID < nbEndpoint)
+            {
+                int nbLinkedCasheServer = ReadInteger(file, ref index);
+                endpointList[endpointID] = new Endpoint(ReadInteger(file, ref index), nbLinkedCasheServer);
+                for (int i = 0; i < nbLinkedCasheServer; i++)
+                {
+                    
+                }
+            }
+        }
         public int ReadInteger(string file, ref int index)
         {
             string integer = "";
