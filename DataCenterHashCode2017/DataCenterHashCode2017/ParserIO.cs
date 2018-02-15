@@ -7,18 +7,18 @@ namespace DataCenterHashCode2017
 {
     public class ParserIO
     {
-        private int nbVid;
-        private int nbEndpoint;
-        private int nbRequest;
-        private int nbCache;
-        private int casheCapacity;
+        public int nbVid;
+        public int nbEndpoint;
+        public int nbRequest;
+        public int nbCache;
+        public int casheCapacity;
 
-        private int[] videoSize;
+        public int[] videoSize;
         
-        private Endpoint[] endpointList;
-        private Video[] vidarr;
-        private CacheServer[] csarr;
-        private Request[] requestList;
+        public Endpoint[] endpointList;
+        public Video[] vidarr;
+        public CacheServer[] csarr;
+        public Request[] requestList;
 
 
         public ParserIO()
@@ -36,6 +36,7 @@ namespace DataCenterHashCode2017
             string file = File.ReadAllText(path);
             int index = 0;
             
+            Console.WriteLine("Read file succefuly");
             //Read the first line
             nbVid = ReadInteger(file, ref index);
             nbEndpoint = ReadInteger(file, ref index);
@@ -57,6 +58,7 @@ namespace DataCenterHashCode2017
             //Créer les Cache servers et initialise les valeurs
             CacheServer[] csarr = CreateCasheServer(nbCache);
             //Set tous les Endpoints
+            Console.WriteLine("Before ParseEndpointServerInfo");
             ParseEndpointServerInfo(file, ref index);
             ParseRequestInfo(file, ref index );
         }
@@ -73,6 +75,7 @@ namespace DataCenterHashCode2017
 
         public void ParseEndpointServerInfo(string file, ref int index)
         {
+            Console.WriteLine("Enter in ParseEndpointServerInfo");
             int endpointID = 0;
             while (endpointID < nbEndpoint)
             {
@@ -93,6 +96,7 @@ namespace DataCenterHashCode2017
                     int idcs = ReadInteger(file, ref index);
                     ep.cacheServers[i] = csarr[idcs];
                     ep.latencyToCashServer[idcs] = ReadInteger(file, ref index);
+                    csarr[idcs].endpoints.Add(ep);
                 }
 
                 endpointList[endpointID] = ep;

@@ -1,0 +1,6 @@
+C:\Users\sdwas\OneDrive\Documents\GitHub\hashcode\DataCenterHashCode2017\DataCenterHashCode2017\bin\Debug\DataCenterHashCode2017.exe
+C:\Users\sdwas\OneDrive\Documents\GitHub\hashcode\DataCenterHashCode2017\DataCenterHashCode2017\bin\Debug\DataCenterHashCode2017.pdb
+C:\Users\sdwas\OneDrive\Documents\GitHub\hashcode\DataCenterHashCode2017\DataCenterHashCode2017\obj\Debug\DataCenterHashCode2017.csprojResolveAssemblyReference.cache
+C:\Users\sdwas\OneDrive\Documents\GitHub\hashcode\DataCenterHashCode2017\DataCenterHashCode2017\obj\Debug\DataCenterHashCode2017.csproj.CoreCompileInputs.cache
+C:\Users\sdwas\OneDrive\Documents\GitHub\hashcode\DataCenterHashCode2017\DataCenterHashCode2017\obj\Debug\DataCenterHashCode2017.exe
+C:\Users\sdwas\OneDrive\Documents\GitHub\hashcode\DataCenterHashCode2017\DataCenterHashCode2017\obj\Debug\DataCenterHashCode2017.pdb

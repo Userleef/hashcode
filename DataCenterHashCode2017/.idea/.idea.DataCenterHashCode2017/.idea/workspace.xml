@@ -14,13 +14,13 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataCenterHashCode2017/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="189">
+              <caret line="10" column="96" lean-forward="false" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
               <folding>
-                <marker date="1518723124834" expanded="false" signature="6:47" ph="..." />
-                <marker date="1518723124834" expanded="true" signature="81:204" ph="{...}" />
-                <marker date="1518723124834" expanded="true" signature="110:202" ph="{...}" />
-                <marker date="1518723124834" expanded="true" signature="163:196" ph="{...}" />
+                <marker date="1518728825436" expanded="false" signature="6:47" ph="..." />
+                <marker date="1518728825436" expanded="true" signature="81:344" ph="{...}" />
+                <marker date="1518728825436" expanded="true" signature="110:342" ph="{...}" />
+                <marker date="1518728825436" expanded="true" signature="163:336" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -29,29 +29,29 @@
       <file leaf-file-name="ParserIO.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataCenterHashCode2017/ParserIO.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="56" column="63" lean-forward="true" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+            <state relative-caret-position="163">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
-                <marker date="1518728066512" expanded="false" signature="6:84" ph="..." />
-                <marker date="1518728066512" expanded="true" signature="118:4948" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="146:4946" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="526:680" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="732:1863" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="1392:1481" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="1933:2021" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="2103:3156" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="2189:3145" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="2650:2738" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="2800:3032" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="3230:3577" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="3288:3567" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="3697:3989" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="3824:3917" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="4016:4155" ph="/* Création des listes de cache serveur et videos ... */" />
-                <marker date="1518728066512" expanded="true" signature="4231:4548" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="4365:4507" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="4627:4940" ph="{...}" />
-                <marker date="1518728066512" expanded="true" signature="4734:4902" ph="{...}" />
+                <marker date="1518729444706" expanded="false" signature="6:84" ph="..." />
+                <marker date="1518729444706" expanded="true" signature="118:5175" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="146:5173" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="516:670" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="722:1972" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="1436:1525" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="2042:2130" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="2212:3383" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="2365:3372" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="2826:2914" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="2976:3259" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="3457:3804" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="3515:3794" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="3924:4216" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="4051:4144" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="4243:4382" ph="/* Création des listes de cache serveur et videos ... */" />
+                <marker date="1518729444706" expanded="true" signature="4458:4775" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="4592:4734" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="4854:5167" ph="{...}" />
+                <marker date="1518729444706" expanded="true" signature="4961:5129" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,12 +73,12 @@
       <file leaf-file-name="CacheServer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataCenterHashCode2017/CacheServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
-                <marker date="1518728066409" expanded="false" signature="6:47" ph="..." />
-                <marker date="1518728066409" expanded="true" signature="81:214" ph="{...}" />
-                <marker date="1518728066409" expanded="true" signature="113:212" ph="{...}" />
+                <marker date="1518729444641" expanded="false" signature="6:47" ph="..." />
+                <marker date="1518729444641" expanded="true" signature="81:255" ph="{...}" />
+                <marker date="1518729444641" expanded="true" signature="113:253" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -130,11 +130,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DataCenterHashCode2017/Video.cs" />
-        <option value="$PROJECT_DIR$/DataCenterHashCode2017/Program.cs" />
         <option value="$PROJECT_DIR$/DataCenterHashCode2017/CasheServer.cs" />
         <option value="$PROJECT_DIR$/DataCenterHashCode2017/Request.cs" />
-        <option value="$PROJECT_DIR$/DataCenterHashCode2017/CacheServer.cs" />
         <option value="$PROJECT_DIR$/DataCenterHashCode2017/Endpoint.cs" />
+        <option value="$PROJECT_DIR$/DataCenterHashCode2017/Program.cs" />
+        <option value="$PROJECT_DIR$/DataCenterHashCode2017/CacheServer.cs" />
         <option value="$PROJECT_DIR$/DataCenterHashCode2017/ParserIO.cs" />
       </list>
     </option>
@@ -204,17 +204,17 @@
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DataCenterHashCode2017/bin/Debug/DataCenterHashCode2017.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataCenterHashCode2017/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DataCenterHashCode2017/DataCenterHashCode2017.csproj" />
       <option name="PROJECT_OUTPUT_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -227,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518715944087</updated>
-      <workItem from="1518715945228" duration="10418000" />
+      <workItem from="1518715945228" duration="11799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10418000" />
+    <option name="totallyTimeSpent" value="11799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,16 +245,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1618" height="918" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -302,14 +304,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataCenterHashCode2017/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="96" lean-forward="false" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+          <folding>
+            <marker date="1518728825436" expanded="false" signature="6:47" ph="..." />
+            <marker date="1518728825436" expanded="true" signature="81:344" ph="{...}" />
+            <marker date="1518728825436" expanded="true" signature="110:342" ph="{...}" />
+            <marker date="1518728825436" expanded="true" signature="163:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataCenterHashCode2017/CacheServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <marker date="1518728066409" expanded="false" signature="6:47" ph="..." />
-            <marker date="1518728066409" expanded="true" signature="81:214" ph="{...}" />
-            <marker date="1518728066409" expanded="true" signature="113:212" ph="{...}" />
+            <marker date="1518729444641" expanded="false" signature="6:47" ph="..." />
+            <marker date="1518729444641" expanded="true" signature="81:255" ph="{...}" />
+            <marker date="1518729444641" expanded="true" signature="113:253" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -325,44 +340,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataCenterHashCode2017/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <marker date="1518723124834" expanded="false" signature="6:47" ph="..." />
-            <marker date="1518723124834" expanded="true" signature="81:204" ph="{...}" />
-            <marker date="1518723124834" expanded="true" signature="110:202" ph="{...}" />
-            <marker date="1518723124834" expanded="true" signature="163:196" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataCenterHashCode2017/ParserIO.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="56" column="63" lean-forward="true" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+        <state relative-caret-position="163">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
-            <marker date="1518728066512" expanded="false" signature="6:84" ph="..." />
-            <marker date="1518728066512" expanded="true" signature="118:4948" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="146:4946" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="526:680" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="732:1863" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="1392:1481" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="1933:2021" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="2103:3156" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="2189:3145" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="2650:2738" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="2800:3032" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="3230:3577" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="3288:3567" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="3697:3989" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="3824:3917" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="4016:4155" ph="/* Création des listes de cache serveur et videos ... */" />
-            <marker date="1518728066512" expanded="true" signature="4231:4548" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="4365:4507" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="4627:4940" ph="{...}" />
-            <marker date="1518728066512" expanded="true" signature="4734:4902" ph="{...}" />
+            <marker date="1518729444706" expanded="false" signature="6:84" ph="..." />
+            <marker date="1518729444706" expanded="true" signature="118:5175" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="146:5173" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="516:670" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="722:1972" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="1436:1525" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="2042:2130" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="2212:3383" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="2365:3372" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="2826:2914" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="2976:3259" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="3457:3804" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="3515:3794" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="3924:4216" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="4051:4144" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="4243:4382" ph="/* Création des listes de cache serveur et videos ... */" />
+            <marker date="1518729444706" expanded="true" signature="4458:4775" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="4592:4734" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="4854:5167" ph="{...}" />
+            <marker date="1518729444706" expanded="true" signature="4961:5129" ph="{...}" />
           </folding>
         </state>
       </provider>

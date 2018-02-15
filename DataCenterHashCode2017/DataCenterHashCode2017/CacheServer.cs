@@ -8,5 +8,6 @@ namespace DataCenterHashCode2017
         public int ID;
         public int contenu;
         public static int CAPACITY;
+        public List<Endpoint> endpoints;
     }
 }
