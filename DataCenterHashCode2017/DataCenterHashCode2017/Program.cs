@@ -8,7 +8,7 @@ namespace DataCenterHashCode2017
         public static void Main(string[] args)
         {
             ParserIO pio = new ParserIO();
-            pio.ParseFile("C:/Users/sdwas/OneDrive/Documents/GitHub/hashcode/HASHCODE/streaming/kittens.in");
+            pio.ParseFile("C:\\Users\\sdwas\\OneDrive\\Documents\\GitHub\\hashcode\\HASHCODE\\streaming\\kittens.in");
         }
     }
 }
